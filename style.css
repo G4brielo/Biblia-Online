@@ -1,0 +1,133 @@
+html,body,figure,div,input,textarea,p,h1,h2,a,ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  list-style: none;
+  text-decoration:none;
+}
+
+html{
+    background-color: rgba(245, 222, 179, 0.295);
+}
+
+.background-nav {
+    background-color: rgb(134, 41, 41);
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container h1 {
+    padding-top: 17px;
+    padding-right: 300px;
+    color: white;
+    padding-left: 20px;
+}
+
+.links-nav {
+    display: flex;
+    padding-top: 22px;
+    gap: 60px;
+}
+
+.links-nav a {
+    color: white;
+}
+
+.links-nav a:hover {
+    color: rgb(255, 155, 155);
+}
+
+/*MAIN*/
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+    
+.versiculo-do-dia {
+    width: 85%;
+    padding-left: 180px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.versiculo-do-dia h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.versiculo-do-dia p {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.808);
+    padding-top: 25px;
+    padding-left: 100px;
+    font-weight: 500;
+}
+
+.versiculo-do-dia span {
+    padding-left: 550px;
+    font-weight: bold;
+}
+
+
+.books-of-hole {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1300px;
+    padding-top: 20px;
+}
+
+.books-of-hole ul {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 235px;
+    height: 360px;
+    padding-top: 10px;
+}
+
+
+
+.books-of-hole li {
+   padding: 14px;
+}
+
+.books-of-hole .big li {
+    padding: 0px;
+}
+
+.books-of-hole .normal {
+    padding: 0px;
+
+
+}
+
+.books-of-hole ul a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.books-of-hole ul a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+.books-of-hole ul:hover {
+    border: 2px solid rgb(155, 155, 155);
+    background-color: rgb(116, 40, 40);
+    color: white;
+}
+
+
